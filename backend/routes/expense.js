@@ -3,19 +3,21 @@ const router = express.Router();
 const Expense = require('../models/expense');
 
 //add an expense
-router.post("/",async(req,res)=>{
+router.post('/',async(req,res)=>{
     try{
+        console.log("Received data:", req.body); 
         const newExpense = await Expense(req.body);
         const expense = await newExpense.save();
         res.status(200).json(expense);//for creation
     }
     catch(error){
+        console.log("no data:", req.body); 
         res.status(500).json(error);//bad request  
     }
 });
 
 //GET ALL EXPesnses
-router.get("/",async(reqeq,res)=>{
+router.get("/",async(req,res)=>{
     try{
         const expense =  await Expense.find().sort({createdAt:-1});//sort
 

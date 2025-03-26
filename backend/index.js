@@ -15,6 +15,7 @@ app.use('/expenses',expressRoute);
 
 //midware
 app.use(express.json());
+app.use(cors());
 
 //DB connection
 mongoose.connect(process.env.DB_CONNECTION).then(()=>{
