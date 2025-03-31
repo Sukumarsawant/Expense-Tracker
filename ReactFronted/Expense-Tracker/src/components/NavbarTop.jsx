@@ -29,7 +29,7 @@ const NavbarTop = () => {
           <h2 className="text-2xl font-semibold">Welcome to the Expense Tracker!</h2>
           <p className="mt-3 text-gray-600">Manage your expenses efficiently and track your financial goals.</p>
         </main> */}
-      </div>
+      </div>ccfd cvf
 
       {/* Sidebar & Overlay */}
       {isOpen && (
