@@ -1,1 +1,28 @@
 -> mongodb+srv://suhassawant56107:Password@cluster0.1mugy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+{
+    Top Navbar & Sidebar: #1E293B (Dark Blue-Gray → bg-gray-900)
+
+Background (Main Body): #F8FAFC (Light Grayish-Blue → bg-gray-100)
+
+Card/Box Backgrounds: #FFFFFF (Pure White → bg-white)
+
+Text Color: #E2E8F0 (Soft Gray for subtle contrast on dark backgrounds)
+
+📊 Graph Colors (Expense Representation)
+Income Line/Bar: #22C55E (Green)
+
+Expense Line/Bar: #EF4444 (Bright Red)
+
+Savings Line/Bar: #F59E0B (Golden Yellow)
+
+Graph Background: #E2E8F0 (Muted Gray-Blue)
+
+Graph Grid Lines: #CBD5E1 (Soft Gray)
+
+🔵 Button Colors
+Primary Button (Add Expense, CTA Buttons): #2563EB (Bright Blue → bg-blue-600)
+
+Button Hover: #1D4ED8 (Deeper Blue → hover:bg-blue-700)
+}
